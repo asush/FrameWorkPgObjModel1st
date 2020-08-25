@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.framework1st.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.framework1st.testCases.TC_02_LogInDDT">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTestDDT" invocation-numbers="0 2 4"/>
+        </methods>
+      </class> <!-- com.framework1st.testCases.TC_02_LogInDDT -->
+      <class name="com.framework1st.testCases.TC_01_LogIn">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.framework1st.testCases.TC_01_LogIn -->
+      <class name="com.framework1st.testCases.TC_03_AddCustomer">
+        <methods>
+          <include name="addNewCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.framework1st.testCases.TC_03_AddCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

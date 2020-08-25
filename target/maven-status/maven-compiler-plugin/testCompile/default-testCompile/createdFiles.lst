@@ -1,0 +1,9 @@
+com\framework1st\testCases\TC_03_AddCustomer.class
+com\framework1st\utilities\ComPropReadConfig.class
+com\framework1st\utilities\XLUtils.class
+com\framework1st\utilities\Reporting.class
+com\framework1st\pageObjects\AddCustomerPage.class
+com\framework1st\testCases\TC_02_LogInDDT.class
+com\framework1st\pageObjects\LoginPage.class
+com\framework1st\testCases\BaseClass.class
+com\framework1st\testCases\TC_01_LogIn.class
