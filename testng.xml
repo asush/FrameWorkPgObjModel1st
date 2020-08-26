@@ -9,7 +9,7 @@
 		<parameter name="browser" value="Chrome" />
 		<classes>
 			<class name="com.framework1st.testCases.TC_01_LogIn" />
-			< class name="com.framework1st.testCases.TC_02_LogInDDT" />
+			<!-- class name="com.framework1st.testCases.TC_02_LogInDDT" /-->
 			<class name="com.framework1st.testCases.TC_03_AddCustomer" />
 		</classes>
 	</test> <!-- Test -->
